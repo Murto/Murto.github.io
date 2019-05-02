@@ -3,7 +3,7 @@ email: contact@murto.dev
 description: >-
   I'm Murray Steele, a third year computer science student at The University of Edinburgh
 baseurl: ""
-url: "http://localhost:3000"
+url: "https://murto.dev"
 github_username:  Murto
 
 # Build settings
