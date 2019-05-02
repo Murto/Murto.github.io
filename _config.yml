@@ -9,6 +9,10 @@ github_username:  Murto
 # Build settings
 markdown: kramdown
 theme: minima
+sass:
+  sass_dir: _sass
+kramdown:
+  input: GFM
 plugins:
   - jekyll-feed
 
