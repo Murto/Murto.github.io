@@ -1,14 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  {% include head.html %}
-
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} | Murray Steele</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
   <body>
-    {% include header.html %}
-    <main>
-      <article>
-        {{ content }}
-      </article>
-      {% include footer.html %}
-    </main>
+    {% include sidebar.html %}
+    {% include content.html %}
   </body>
 </html>

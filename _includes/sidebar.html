@@ -1,0 +1,16 @@
+<div class="sidebar">
+  <img src="{{ site.baseurl }}/assets/images/profile.jpg" class="profile">
+  <h2 class="name">Murray Steele</h2>
+  <br>
+  <hr class="navdivider">
+  <br>
+  <nav class="navigation">
+    {% for item in site.data.navigation %}
+      <a href="{{ item.link }}" {% if page.url == item.link %} class="navcurrent" {% else %} class="navtext" {% endif %}>
+        <div class="navbox">
+          {{ item.name }}
+        </div>
+      </a>
+    {% endfor %}
+  </nav>
+</div>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Projects
 ---
 
 Check back later!
